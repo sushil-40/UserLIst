@@ -1,12 +1,14 @@
 import "./App.css";
+import { UserForm } from "./components/UserForm";
 
-function App() {
+const App = () => {
   return (
     <div>
-      Hello
-      <button className="btn btn-primary">Test Button</button>
+      {/* form component   */}
+      <UserForm />
+      {/* table component  */}
     </div>
   );
-}
+};
 
 export default App;
