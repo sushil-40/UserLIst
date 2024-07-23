@@ -1,0 +1,12 @@
+.creditForIcon {
+  margin-top: 50px;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+.creditForIcon h3 {
+  color: rgb(24, 204, 204);
+}

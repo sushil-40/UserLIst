@@ -16,7 +16,3 @@ export const FemaleAvatar = () => {
     </div>
   );
 };
-
-// <a href="https://www.flaticon.com/free-icons/young" title="young icons">Young icons created by Freepik - Flaticon</a>
-
-/* <a href="https://www.flaticon.com/free-icons/female" title="female icons">Female icons created by Prosymbols Premium - Flaticon</a> */

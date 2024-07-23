@@ -20,6 +20,25 @@ const App = () => {
       {/* table component  */}
 
       <UserTable userList={userList} />
+
+      <div className="creditForIcon">
+        <h3>Icon Credit</h3>
+        <span>
+          <a
+            href="https://www.flaticon.com/free-icons/young"
+            title="young icons"
+          >
+            Young icons created by Freepik - Flaticon
+          </a>
+          <br />
+          <a
+            href="https://www.flaticon.com/free-icons/female"
+            title="female icons"
+          >
+            Female icons created by Prosymbols Premium - Flaticon
+          </a>
+        </span>
+      </div>
     </div>
   );
 };
