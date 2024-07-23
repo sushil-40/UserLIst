@@ -19,7 +19,7 @@ const App = () => {
 
       {/* table component  */}
 
-      <UserTable />
+      <UserTable userList={userList} />
     </div>
   );
 };

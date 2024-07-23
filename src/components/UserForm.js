@@ -5,7 +5,7 @@ export const UserForm = ({ addUser }) => {
   const handleOnChange = (e) => {
     const { name, value } = e.target;
     // console.log(e);
-    console.log(name, value);
+    // console.log(name, value);
     setUser({
       ...user,
       [name]: value,
@@ -38,7 +38,7 @@ export const UserForm = ({ addUser }) => {
           </div>
           <div className="col-md-6">
             <input
-              name="username"
+              name="name"
               type="text"
               className="form-control"
               placeholder="User name"
