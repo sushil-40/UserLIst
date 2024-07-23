@@ -19,7 +19,9 @@ export const UserTable = ({ userList }) => {
             <tr key={i}>
               <th scope="row">{i + 1}</th>
               <td>{user.gender === "m" ? <MaleAvatar /> : <FemaleAvatar />}</td>
-              <td>{user.name}</td>
+              <td style={{ color: user.gender === "m" ? "blue" : "pink" }}>
+                {user.name}
+              </td>
               <td>{user.gender}</td>
             </tr>
           ))}
